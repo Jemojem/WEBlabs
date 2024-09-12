@@ -1,0 +1,81 @@
+{
+  "id": "MagicFox",
+  "basic_mechanics": [
+    {
+      "id": "BaseScript",
+      "parameters": [
+        {
+          "Key": "hp",
+          "Value": "2"
+        },
+        {
+          "Key": "SolidBody",
+          "Value": "True"
+        },
+        {
+          "Key": "element",
+          "Value": "Ice"
+        }
+      ]
+    },
+    {
+      "id": "MobVision",
+      "parameters": [
+        {
+          "Key": "range",
+          "Value": "5"
+        }
+      ]
+    }
+  ],
+  "attack_mechanics": [
+    {
+      "id": "MeleeAttack",
+      "parameters": [
+        {
+          "Key": "damage",
+          "Value": "2"
+        },
+        {
+          "Key": "attack_speed",
+          "Value": "1"
+        }
+      ]
+    },
+    {
+      "id": "ContactDamage",
+      "parameters": [
+        {
+          "Key": "damage",
+          "Value": "2"
+        }
+      ]
+    }
+  ],
+  "movement_mechanics": [
+    {
+      "id": "Patrol",
+      "parameters": [
+        {
+          "Key": "ChasingRange",
+          "Value": "4"
+        },
+        {
+          "Key": "move_speed",
+          "Value": "2"
+        }
+      ]
+    },
+    {
+      "id": "BaseMovement",
+      "parameters": [
+        {
+          "Key": "move_speed",
+          "Value": "2"
+        }
+      ]
+    }
+  ],
+  "special_mechanics": [
+  ]
+}
